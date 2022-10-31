@@ -605,15 +605,6 @@ function sizeOfThings() {
     document.getElementById('costas').style.visibility = "hidden";
     document.getElementById('acabamentos').style.display = "none";
     document.getElementById('cores').style.visibility = "hidden";
-    document.getElementById('coresb').style.visibility = "hidden";
-    document.getElementById('coresGE').style.visibility = "hidden";
-    document.getElementById('coresGI').style.visibility = "hidden";
-    document.getElementById('coresP').style.visibility = "hidden";
-    document.getElementById('coresVE').style.visibility = "hidden";
-    document.getElementById('coresVD').style.visibility = "hidden";
-    document.getElementById('coresBF').style.visibility = "hidden";
-    document.getElementById('coresBB').style.visibility = "hidden";
-
   }
 };
 window.addEventListener('resize', function () {
@@ -629,14 +620,6 @@ document.getElementById('btnacabalabel').addEventListener('click', function (e) 
   document.getElementById('acabamentos').style.display = "block";
   document.getElementById('deletelabel').style.display = "block";
   document.getElementById('cores').style.visibility = "hidden";
-  document.getElementById('coresb').style.visibility = "hidden";
-  document.getElementById('coresGE').style.visibility = "hidden";
-  document.getElementById('coresGI').style.visibility = "hidden";
-  document.getElementById('coresP').style.visibility = "hidden";
-  document.getElementById('coresVE').style.visibility = "hidden";
-  document.getElementById('coresVD').style.visibility = "hidden";
-  document.getElementById('coresBF').style.visibility = "hidden";
-  document.getElementById('coresBB').style.visibility = "hidden";
 })
 
 document.getElementById('deleteb').addEventListener('click', function (e) {
@@ -646,51 +629,20 @@ document.getElementById('deleteb').addEventListener('click', function (e) {
 
 document.getElementById('deletebase').addEventListener('click', function (e) {
   document.getElementById('cores').style.visibility = "hidden";
-  document.getElementById('coresb').style.visibility = "hidden";
-  document.getElementById('coresGE').style.visibility = "hidden";
-  document.getElementById('coresGI').style.visibility = "hidden";
-  document.getElementById('coresP').style.visibility = "hidden";
-  document.getElementById('coresVE').style.visibility = "hidden";
-  document.getElementById('coresVD').style.visibility = "hidden";
-  document.getElementById('coresBF').style.visibility = "hidden";
-  document.getElementById('coresBB').style.visibility = "hidden";
   document.getElementById('deletebaselabel').style.display = "none";
-  document.getElementById('deletebaselabel1').style.display = "none";
-  document.getElementById('deletebaselabel2').style.display = "none";
-  document.getElementById('deletebaselabel3').style.display = "none";
-  document.getElementById('deletebaselabel4').style.display = "none";
   document.getElementById('acabamentos').style.display = "none";
   document.getElementById('deletelabel').style.display = "none";
 });
 
 document.getElementById('botaocor').addEventListener('click', function (e) {
   document.getElementById('cores').style.visibility = "visible";
-  document.getElementById('coresb').style.visibility = "hidden";
-  document.getElementById('coresGE').style.visibility = "hidden";
-  document.getElementById('coresGI').style.visibility = "hidden";
-  document.getElementById('coresP').style.visibility = "hidden";
-  document.getElementById('coresVE').style.visibility = "hidden";
-  document.getElementById('coresVD').style.visibility = "hidden";
-  document.getElementById('coresBF').style.visibility = "hidden";
-  document.getElementById('coresBB').style.visibility = "hidden";
   document.getElementById('deletebaselabel').style.display = "block";
-  document.getElementById('deletebaselabel1').style.display = "none";
-  document.getElementById('deletebaselabel2').style.display = "none";
-  document.getElementById('deletebaselabel3').style.display = "none";
-  document.getElementById('deletebaselabel4').style.display = "none";
   document.getElementById('acabamentos').style.display = "none";
   document.getElementById('deletelabel').style.display = "none";
 });
 
 document.getElementById('botaocorbotoes').addEventListener('click', function (e) {
   document.getElementById('cores').style.visibility = "hidden";
-  document.getElementById('coresb').style.visibility = "visible";
-  document.getElementById('coresGE').style.visibility = "hidden";
-  document.getElementById('coresGI').style.visibility = "hidden";
-  document.getElementById('coresVE').style.visibility = "hidden";
-  document.getElementById('coresVD').style.visibility = "hidden";
-  document.getElementById('coresBF').style.visibility = "hidden";
-  document.getElementById('coresBB').style.visibility = "hidden";
   document.getElementById('deletebaselabel').style.display = "none";
   document.getElementById('deletebaselabel1').style.display = "block";
   document.getElementById('deletebaselabel2').style.display = "none";
@@ -702,13 +654,6 @@ document.getElementById('botaocorbotoes').addEventListener('click', function (e)
 
 document.getElementById('botaocorgola').addEventListener('click', function (e) {
   document.getElementById('cores').style.visibility = "hidden";
-  document.getElementById('coresb').style.visibility = "hidden";
-  document.getElementById('coresGE').style.visibility = "visible";
-  document.getElementById('coresGI').style.visibility = "hidden";
-  document.getElementById('coresVE').style.visibility = "hidden";
-  document.getElementById('coresVD').style.visibility = "hidden";
-  document.getElementById('coresBF').style.visibility = "hidden";
-  document.getElementById('coresBB').style.visibility = "hidden";
   document.getElementById('deletebaselabel').style.display = "none";
   document.getElementById('deletebaselabel1').style.display = "none";
   document.getElementById('deletebaselabel2').style.display = "block";
@@ -720,13 +665,6 @@ document.getElementById('botaocorgola').addEventListener('click', function (e) {
 
 document.getElementById('botaocorvista').addEventListener('click', function (e) {
   document.getElementById('cores').style.visibility = "hidden";
-  document.getElementById('coresb').style.visibility = "hidden";
-  document.getElementById('coresGE').style.visibility = "hidden";
-  document.getElementById('coresGI').style.visibility = "hidden";
-  document.getElementById('coresVE').style.visibility = "visible";
-  document.getElementById('coresVD').style.visibility = "hidden";
-  document.getElementById('coresBF').style.visibility = "hidden";
-  document.getElementById('coresBB').style.visibility = "hidden";
   document.getElementById('deletebaselabel').style.display = "none";
   document.getElementById('deletebaselabel1').style.display = "none";
   document.getElementById('deletebaselabel2').style.display = "none";
@@ -738,13 +676,6 @@ document.getElementById('botaocorvista').addEventListener('click', function (e) 
 
 document.getElementById('botaocorcarcela').addEventListener('click', function (e) {
   document.getElementById('cores').style.visibility = "hidden";
-  document.getElementById('coresb').style.visibility = "hidden";
-  document.getElementById('coresGE').style.visibility = "hidden";
-  document.getElementById('coresGI').style.visibility = "visible";
-  document.getElementById('coresVE').style.visibility = "hidden";
-  document.getElementById('coresVD').style.visibility = "hidden";
-  document.getElementById('coresBF').style.visibility = "hidden";
-  document.getElementById('coresBB').style.visibility = "hidden";
   document.getElementById('deletebaselabel').style.display = "none";
   document.getElementById('deletebaselabel1').style.display = "none";
   document.getElementById('deletebaselabel2').style.display = "none";
@@ -755,14 +686,6 @@ document.getElementById('botaocorcarcela').addEventListener('click', function (e
 });
 document.getElementById('botaocorpunho').addEventListener('click', function (e) {
   document.getElementById('cores').style.visibility = "hidden";
-  document.getElementById('coresb').style.visibility = "hidden";
-  document.getElementById('coresGE').style.visibility = "hidden";
-  document.getElementById('coresGI').style.visibility = "hidden";
-  document.getElementById('coresP').style.visibility = "visible";
-  document.getElementById('coresVE').style.visibility = "hidden";
-  document.getElementById('coresVD').style.visibility = "hidden";
-  document.getElementById('coresBF').style.visibility = "hidden";
-  document.getElementById('coresBB').style.visibility = "hidden";
   document.getElementById('deletebaselabel').style.display = "none";
   document.getElementById('deletebaselabel1').style.display = "none";
   document.getElementById('deletebaselabel2').style.display = "none";
@@ -774,14 +697,6 @@ document.getElementById('botaocorpunho').addEventListener('click', function (e) 
 
 document.getElementById('botaocorpeitilho1').addEventListener('click', function (e) {
   document.getElementById('cores').style.visibility = "hidden";
-  document.getElementById('coresb').style.visibility = "hidden";
-  document.getElementById('coresGE').style.visibility = "hidden";
-  document.getElementById('coresGI').style.visibility = "hidden";
-  document.getElementById('coresP').style.visibility = "hidden";
-  document.getElementById('coresVE').style.visibility = "hidden";
-  document.getElementById('coresVD').style.visibility = "visible";
-  document.getElementById('coresBF').style.visibility = "hidden";
-  document.getElementById('coresBB').style.visibility = "hidden";
   document.getElementById('deletebaselabel').style.display = "none";
   document.getElementById('deletebaselabel1').style.display = "none";
   document.getElementById('deletebaselabel2').style.display = "none";
@@ -792,14 +707,6 @@ document.getElementById('botaocorpeitilho1').addEventListener('click', function 
 });
 document.getElementById('botaocorpeitilho2').addEventListener('click', function (e) {
   document.getElementById('cores').style.visibility = "hidden";
-  document.getElementById('coresb').style.visibility = "hidden";
-  document.getElementById('coresGE').style.visibility = "hidden";
-  document.getElementById('coresGI').style.visibility = "hidden";
-  document.getElementById('coresP').style.visibility = "hidden";
-  document.getElementById('coresVE').style.visibility = "hidden";
-  document.getElementById('coresVD').style.visibility = "hidden";
-  document.getElementById('coresBF').style.visibility = "visible";
-  document.getElementById('coresBB').style.visibility = "hidden";
   document.getElementById('deletebaselabel').style.display = "none";
   document.getElementById('deletebaselabel1').style.display = "none";
   document.getElementById('deletebaselabel2').style.display = "none";
@@ -810,14 +717,6 @@ document.getElementById('botaocorpeitilho2').addEventListener('click', function 
 });
 document.getElementById('botaocorfriso').addEventListener('click', function (e) {
   document.getElementById('cores').style.visibility = "hidden";
-  document.getElementById('coresb').style.visibility = "hidden";
-  document.getElementById('coresGE').style.visibility = "hidden";
-  document.getElementById('coresGI').style.visibility = "hidden";
-  document.getElementById('coresP').style.visibility = "hidden";
-  document.getElementById('coresVE').style.visibility = "hidden";
-  document.getElementById('coresVD').style.visibility = "hidden";
-  document.getElementById('coresBF').style.visibility = "hidden";
-  document.getElementById('coresBB').style.visibility = "visible";
   document.getElementById('deletebaselabel').style.display = "none";
   document.getElementById('deletebaselabel1').style.display = "none";
   document.getElementById('deletebaselabel2').style.display = "none";
